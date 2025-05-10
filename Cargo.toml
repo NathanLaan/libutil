@@ -1,0 +1,15 @@
+[package]
+name = "libutil"
+version = "0.1.0"
+edition = "2024"
+license = "MIT"
+authors = ["Nathan Laan"]
+homepage = "https://github.com/NathanLaan/libutil"
+repository = "https://github.com/NathanLaan/libutil"
+description = "A Rust utility library."
+
+[dependencies]
+time = { version = "0.3", features = ["macros", "local-offset", "formatting", "parsing"] }
+
+[lib]
+#proc-macro = true
