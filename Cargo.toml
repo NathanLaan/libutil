@@ -7,6 +7,9 @@ authors = ["Nathan Laan"]
 homepage = "https://github.com/NathanLaan/libutil"
 repository = "https://github.com/NathanLaan/libutil"
 description = "A Rust utility library."
+readme = "README.md"
+keywords = ["macro", "debug", "utility"]
+categories = ["development-tools"]
 
 [dependencies]
 time = { version = "0.3", features = ["macros", "local-offset", "formatting", "parsing"] }
